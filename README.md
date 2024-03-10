@@ -16,4 +16,8 @@ Insprired by K-VRC from Love, Death, & Robotics show, this small project recreat
 3. Connect SCL from OLED to SCL on board (Pin A5 on Nano)
 4. Connect SDA from OLED to SDA on board (Pin A4 on Nano)
 5. Connect 5V and GND to the appropriate pins on board
-6. Flash the board with project code
+6. IMPORTANT! [Change oled_addr to your OLED hex address (printed on the OLED itself)](https://github.com/moomurrs/K-VRC-Face/blob/3859a51ba25a666491731bdbe1e416e137945167/src/main.cpp#L15)
+7. Flash the board with project code, verify blink works
+8. Gently insert OLED into 3D printed model
+
+DONE!
